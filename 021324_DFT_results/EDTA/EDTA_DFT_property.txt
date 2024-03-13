@@ -1,0 +1,1794 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:    -1100.6638124146
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000009332 
+   Number of Beta  Electrons                 77.0000009332 
+   Total number of  Electrons               154.0000018664 
+   Exchange energy                         -108.5286914028 
+   Correlation energy                        -6.3221077073 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.8507991101 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6638124146 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 1
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1888
+     Surface Area:        1140.7134336984
+     Dielectric Energy:     -0.0647151997
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 36
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 36
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     5.8845     6.0000     0.1155     3.9554     3.9554     0.0000
+  1   0     5.8826     6.0000     0.1174     4.0344     4.0344    -0.0000
+  2   0     7.4259     7.0000    -0.4259     3.0510     3.0510     0.0000
+  3   0     5.8569     6.0000     0.1431     3.7901     3.7901     0.0000
+  4   0     5.8611     6.0000     0.1389     4.4215     4.4215     0.0000
+  5   0     8.2834     8.0000    -0.2834     2.2082     2.2082    -0.0000
+  6   0     8.2269     8.0000    -0.2269     2.2454     2.2454     0.0000
+  7   0     5.8961     6.0000     0.1039     3.8570     3.8570    -0.0000
+  8   0     5.7928     6.0000     0.2072     4.2715     4.2715     0.0000
+  9   0     8.2867     8.0000    -0.2867     2.2166     2.2166    -0.0000
+ 10   0     8.1798     8.0000    -0.1798     2.2975     2.2975     0.0000
+ 11   0     7.4688     7.0000    -0.4688     3.0913     3.0913     0.0000
+ 12   0     5.8712     6.0000     0.1288     3.7781     3.7781    -0.0000
+ 13   0     5.8706     6.0000     0.1294     4.4107     4.4107    -0.0000
+ 14   0     8.2638     8.0000    -0.2638     2.2411     2.2411    -0.0000
+ 15   0     8.1948     8.0000    -0.1948     2.2569     2.2569    -0.0000
+ 16   0     5.8607     6.0000     0.1393     3.7985     3.7985     0.0000
+ 17   0     5.8803     6.0000     0.1197     4.4080     4.4080     0.0000
+ 18   0     8.2659     8.0000    -0.2659     2.2400     2.2400    -0.0000
+ 19   0     8.2025     8.0000    -0.2025     2.2473     2.2473    -0.0000
+ 20   0     0.9640     1.0000     0.0360     1.0040     1.0040    -0.0000
+ 21   0     0.9824     1.0000     0.0176     1.0427     1.0427     0.0000
+ 22   0     0.9716     1.0000     0.0284     0.9979     0.9979    -0.0000
+ 23   0     0.9867     1.0000     0.0133     0.9857     0.9857    -0.0000
+ 24   0     0.9390     1.0000     0.0610     1.0029     1.0029     0.0000
+ 25   0     0.9781     1.0000     0.0219     1.0124     1.0124     0.0000
+ 26   0     0.7994     1.0000     0.2006     1.0823     1.0823    -0.0000
+ 27   0     0.9234     1.0000     0.0766     0.9978     0.9978     0.0000
+ 28   0     0.9392     1.0000     0.0608     0.9935     0.9935     0.0000
+ 29   0     0.7584     1.0000     0.2416     0.9778     0.9778     0.0000
+ 30   0     0.9510     1.0000     0.0490     1.0121     1.0121     0.0000
+ 31   0     0.9178     1.0000     0.0822     0.9991     0.9991     0.0000
+ 32   0     0.7774     1.0000     0.2226     1.0182     1.0182    -0.0000
+ 33   0     0.9514     1.0000     0.0486     1.0096     1.0096     0.0000
+ 34   0     0.9159     1.0000     0.0841     0.9931     0.9931    -0.0000
+ 35   0     0.7889     1.0000     0.2111     1.0349     1.0349    -0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            6                1.061454
+                0             6              11            7                0.977197
+                0             6              20            1                0.932478
+                0             6              21            1                0.930819
+                1             6               2            7                0.989613
+                1             6              22            1                0.942283
+                1             6              23            1                0.925100
+                2             7               3            6                0.937066
+                2             7               7            6                0.997353
+                3             6               4            6                0.980391
+                3             6              24            1                0.921712
+                3             6              25            1                0.914911
+                4             6               5            8                2.054073
+                4             6               6            8                1.267605
+                6             8              26            1                0.879946
+                7             6               8            6                0.966775
+                7             6              27            1                0.922183
+                7             6              28            1                0.919495
+                8             6               9            8                1.923005
+                8             6              10            8                1.275780
+                9             8              26            1                0.142218
+               10             8              29            1                0.923225
+               11             7              12            6                0.946987
+               11             7              16            6                0.967360
+               12             6              13            6                0.966924
+               12             6              30            1                0.925859
+               12             6              31            1                0.918114
+               13             6              14            8                2.100980
+               13             6              15            8                1.232312
+               15             8              32            1                0.911558
+               16             6              17            6                0.967411
+               16             6              33            1                0.922631
+               16             6              34            1                0.921404
+               17             6              18            8                2.103682
+               17             6              19            8                1.237911
+               19             8              35            1                0.908399
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 2
+   prop. index: 1
+        SCF Energy:    -1100.6739749931
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 2
+   prop. index: 1
+   Number of Alpha Electrons                 76.9999316629 
+   Number of Beta  Electrons                 76.9999316629 
+   Total number of  Electrons               153.9998633257 
+   Exchange energy                         -108.5901003757 
+   Correlation energy                        -6.3260975190 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9161978948 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6739749931 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 2
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1889
+     Surface Area:        1139.0775450674
+     Dielectric Energy:     -0.0649051281
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 3
+   prop. index: 1
+        SCF Energy:    -1100.6748594236
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 3
+   prop. index: 1
+   Number of Alpha Electrons                 76.9999384108 
+   Number of Beta  Electrons                 76.9999384108 
+   Total number of  Electrons               153.9998768216 
+   Exchange energy                         -108.6572415802 
+   Correlation energy                        -6.3328469385 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9900885186 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6748594236 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 3
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1893
+     Surface Area:        1133.7565625292
+     Dielectric Energy:     -0.0683888093
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 4
+   prop. index: 1
+        SCF Energy:    -1100.6781713032
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 4
+   prop. index: 1
+   Number of Alpha Electrons                 76.9999062401 
+   Number of Beta  Electrons                 76.9999062401 
+   Total number of  Electrons               153.9998124802 
+   Exchange energy                         -108.6260976803 
+   Correlation energy                        -6.3287127039 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9548103843 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6781713032 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 4
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1903
+     Surface Area:        1147.0876342296
+     Dielectric Energy:     -0.0668341742
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 5
+   prop. index: 1
+        SCF Energy:    -1100.6787994150
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 5
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000151757 
+   Number of Beta  Electrons                 77.0000151757 
+   Total number of  Electrons               154.0000303514 
+   Exchange energy                         -108.6020745901 
+   Correlation energy                        -6.3265792532 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9286538433 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6787994150 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 5
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1910
+     Surface Area:        1153.5705530093
+     Dielectric Energy:     -0.0679012029
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 6
+   prop. index: 1
+        SCF Energy:    -1100.6802708976
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 6
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000372161 
+   Number of Beta  Electrons                 77.0000372161 
+   Total number of  Electrons               154.0000744321 
+   Exchange energy                         -108.6115675791 
+   Correlation energy                        -6.3276261594 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9391937384 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6802708976 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 6
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1909
+     Surface Area:        1154.8351565210
+     Dielectric Energy:     -0.0689900722
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 7
+   prop. index: 1
+        SCF Energy:    -1100.6807483370
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 7
+   prop. index: 1
+   Number of Alpha Electrons                 77.0001180300 
+   Number of Beta  Electrons                 77.0001180300 
+   Total number of  Electrons               154.0002360600 
+   Exchange energy                         -108.6246519650 
+   Correlation energy                        -6.3288933461 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9535453111 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6807483370 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 7
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1912
+     Surface Area:        1153.1182456942
+     Dielectric Energy:     -0.0698451624
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 8
+   prop. index: 1
+        SCF Energy:    -1100.6810515261
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 8
+   prop. index: 1
+   Number of Alpha Electrons                 77.0001533152 
+   Number of Beta  Electrons                 77.0001533152 
+   Total number of  Electrons               154.0003066305 
+   Exchange energy                         -108.6260627287 
+   Correlation energy                        -6.3288121565 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9548748852 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6810515261 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 8
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1904
+     Surface Area:        1155.4215125674
+     Dielectric Energy:     -0.0703872335
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 9
+   prop. index: 1
+        SCF Energy:    -1100.6812775432
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 9
+   prop. index: 1
+   Number of Alpha Electrons                 77.0001032417 
+   Number of Beta  Electrons                 77.0001032417 
+   Total number of  Electrons               154.0002064834 
+   Exchange energy                         -108.6195842705 
+   Correlation energy                        -6.3279554018 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9475396723 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6812775432 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 9
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1912
+     Surface Area:        1159.6286418975
+     Dielectric Energy:     -0.0708757285
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 10
+   prop. index: 1
+        SCF Energy:    -1100.6813622816
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 10
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000929005 
+   Number of Beta  Electrons                 77.0000929005 
+   Total number of  Electrons               154.0001858010 
+   Exchange energy                         -108.6155647307 
+   Correlation energy                        -6.3277257516 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9432904822 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6813622816 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 10
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1905
+     Surface Area:        1158.7025603944
+     Dielectric Energy:     -0.0708366168
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 11
+   prop. index: 1
+        SCF Energy:    -1100.6814416732
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 11
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000902568 
+   Number of Beta  Electrons                 77.0000902568 
+   Total number of  Electrons               154.0001805136 
+   Exchange energy                         -108.6207824948 
+   Correlation energy                        -6.3282563522 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9490388469 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6814416732 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 11
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1907
+     Surface Area:        1157.5746178452
+     Dielectric Energy:     -0.0707880348
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 12
+   prop. index: 1
+        SCF Energy:    -1100.6814585069
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 12
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000777156 
+   Number of Beta  Electrons                 77.0000777156 
+   Total number of  Electrons               154.0001554312 
+   Exchange energy                         -108.6234368634 
+   Correlation energy                        -6.3284891148 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9519259782 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6814585069 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 12
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1904
+     Surface Area:        1157.2263924295
+     Dielectric Energy:     -0.0708814442
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 13
+   prop. index: 1
+        SCF Energy:    -1100.6814882950
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 13
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000632690 
+   Number of Beta  Electrons                 77.0000632690 
+   Total number of  Electrons               154.0001265379 
+   Exchange energy                         -108.6216048341 
+   Correlation energy                        -6.3282676673 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9498725014 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6814882950 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 13
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1911
+     Surface Area:        1157.9565904179
+     Dielectric Energy:     -0.0710558086
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 14
+   prop. index: 1
+        SCF Energy:    -1100.6814972768
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 14
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000488264 
+   Number of Beta  Electrons                 77.0000488264 
+   Total number of  Electrons               154.0000976528 
+   Exchange energy                         -108.6201996918 
+   Correlation energy                        -6.3281617073 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9483613990 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6814972768 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 14
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1902
+     Surface Area:        1158.0427879592
+     Dielectric Energy:     -0.0711925884
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 15
+   prop. index: 1
+        SCF Energy:    -1100.6815021537
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 15
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000270032 
+   Number of Beta  Electrons                 77.0000270032 
+   Total number of  Electrons               154.0000540063 
+   Exchange energy                         -108.6194657134 
+   Correlation energy                        -6.3280718367 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9475375501 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6815021537 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 15
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1906
+     Surface Area:        1158.6489271629
+     Dielectric Energy:     -0.0717059285
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 16
+   prop. index: 1
+        SCF Energy:    -1100.6815293232
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 16
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000134348 
+   Number of Beta  Electrons                 77.0000134348 
+   Total number of  Electrons               154.0000268696 
+   Exchange energy                         -108.6198279634 
+   Correlation energy                        -6.3280812393 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9479092027 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6815293232 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 16
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1928
+     Surface Area:        1160.3052194972
+     Dielectric Energy:     -0.0721306690
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 17
+   prop. index: 1
+        SCF Energy:    -1100.6815754018
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 17
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000298434 
+   Number of Beta  Electrons                 77.0000298434 
+   Total number of  Electrons               154.0000596869 
+   Exchange energy                         -108.6213910953 
+   Correlation energy                        -6.3282331227 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9496242180 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6815754018 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 17
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1927
+     Surface Area:        1159.3360137261
+     Dielectric Energy:     -0.0719167176
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 18
+   prop. index: 1
+        SCF Energy:    -1100.6815888771
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 18
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000295595 
+   Number of Beta  Electrons                 77.0000295595 
+   Total number of  Electrons               154.0000591190 
+   Exchange energy                         -108.6223654782 
+   Correlation energy                        -6.3283078513 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9506733295 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6815888771 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 18
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1925
+     Surface Area:        1158.9515991485
+     Dielectric Energy:     -0.0717512310
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 19
+   prop. index: 1
+        SCF Energy:    -1100.6815980708
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 19
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000206748 
+   Number of Beta  Electrons                 77.0000206748 
+   Total number of  Electrons               154.0000413497 
+   Exchange energy                         -108.6226407930 
+   Correlation energy                        -6.3283180289 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9509588219 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6815980708 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 19
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1923
+     Surface Area:        1158.5959821168
+     Dielectric Energy:     -0.0718170133
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 20
+   prop. index: 1
+        SCF Energy:    -1100.6816044625
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 20
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000218548 
+   Number of Beta  Electrons                 77.0000218548 
+   Total number of  Electrons               154.0000437096 
+   Exchange energy                         -108.6228054432 
+   Correlation energy                        -6.3283263217 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9511317649 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6816044625 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 20
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1926
+     Surface Area:        1158.7379925498
+     Dielectric Energy:     -0.0718247283
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 21
+   prop. index: 1
+        SCF Energy:    -1100.6816053539
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 21
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000240494 
+   Number of Beta  Electrons                 77.0000240494 
+   Total number of  Electrons               154.0000480988 
+   Exchange energy                         -108.6223959274 
+   Correlation energy                        -6.3282861968 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9506821242 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6816053539 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 21
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1927
+     Surface Area:        1158.8500605433
+     Dielectric Energy:     -0.0718102602
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 22
+   prop. index: 1
+        SCF Energy:    -1100.6816057058
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 22
+   prop. index: 1
+   Number of Alpha Electrons                 77.0000226247 
+   Number of Beta  Electrons                 77.0000226247 
+   Total number of  Electrons               154.0000452495 
+   Exchange energy                         -108.6221969258 
+   Correlation energy                        -6.3282593918 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -114.9504563176 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -1100.6816057058 
+# -----------------------------------------------------------
+$ Solvation_Details
+   description: Details concerning solvation
+   geom. index: 22
+   prop. index: 1
+     Epsilon:               69.0000000000
+     Refrac:                 1.3400000000
+     RSolv:                  1.3000000000
+     Surface Type:                      2
+     Number of Points:               1928
+     Surface Area:        1158.8475533190
+     Dielectric Energy:     -0.0718165011
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 22
+   prop. index: 1
+     Number of atoms                     : 36
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 36
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     5.9000     6.0000     0.1000     3.9930     3.9930    -0.0000
+  1   0     5.8516     6.0000     0.1484     4.0094     4.0094    -0.0000
+  2   0     7.4163     7.0000    -0.4163     3.1329     3.1329     0.0000
+  3   0     5.8542     6.0000     0.1458     3.8076     3.8076    -0.0000
+  4   0     5.9050     6.0000     0.0950     4.4412     4.4412    -0.0000
+  5   0     8.2816     8.0000    -0.2816     2.2139     2.2139    -0.0000
+  6   0     8.2050     8.0000    -0.2050     2.2601     2.2601    -0.0000
+  7   0     5.8818     6.0000     0.1182     3.8603     3.8603     0.0000
+  8   0     5.8495     6.0000     0.1505     4.2984     4.2984    -0.0000
+  9   0     8.2824     8.0000    -0.2824     2.2240     2.2240     0.0000
+ 10   0     8.1546     8.0000    -0.1546     2.3060     2.3060    -0.0000
+ 11   0     7.4659     7.0000    -0.4659     3.0922     3.0922    -0.0000
+ 12   0     5.8629     6.0000     0.1371     3.7667     3.7667    -0.0000
+ 13   0     5.8926     6.0000     0.1074     4.4156     4.4156    -0.0000
+ 14   0     8.2605     8.0000    -0.2605     2.2408     2.2408     0.0000
+ 15   0     8.1771     8.0000    -0.1771     2.2725     2.2725     0.0000
+ 16   0     5.8677     6.0000     0.1323     3.7986     3.7986     0.0000
+ 17   0     5.8983     6.0000     0.1017     4.4291     4.4291    -0.0000
+ 18   0     8.2638     8.0000    -0.2638     2.2394     2.2394     0.0000
+ 19   0     8.1756     8.0000    -0.1756     2.2673     2.2673    -0.0000
+ 20   0     0.9707     1.0000     0.0293     1.0056     1.0056     0.0000
+ 21   0     0.9716     1.0000     0.0284     1.0226     1.0226     0.0000
+ 22   0     0.9662     1.0000     0.0338     0.9984     0.9984     0.0000
+ 23   0     0.9816     1.0000     0.0184     0.9900     0.9900    -0.0000
+ 24   0     0.9329     1.0000     0.0671     0.9993     0.9993     0.0000
+ 25   0     0.9740     1.0000     0.0260     1.0183     1.0183    -0.0000
+ 26   0     0.8000     1.0000     0.2000     1.0902     1.0902    -0.0000
+ 27   0     0.9256     1.0000     0.0744     1.0024     1.0024    -0.0000
+ 28   0     0.9382     1.0000     0.0618     0.9932     0.9932    -0.0000
+ 29   0     0.7680     1.0000     0.2320     0.9847     0.9847     0.0000
+ 30   0     0.9504     1.0000     0.0496     1.0151     1.0151    -0.0000
+ 31   0     0.9211     1.0000     0.0789     0.9975     0.9975     0.0000
+ 32   0     0.7863     1.0000     0.2137     1.0304     1.0304    -0.0000
+ 33   0     0.9512     1.0000     0.0488     1.0049     1.0049    -0.0000
+ 34   0     0.9168     1.0000     0.0832     0.9955     0.9955     0.0000
+ 35   0     0.7989     1.0000     0.2011     1.0464     1.0464    -0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            6                1.076330
+                0             6              11            7                0.973024
+                0             6              20            1                0.933329
+                0             6              21            1                0.934116
+                1             6               2            7                0.991761
+                1             6              22            1                0.932397
+                1             6              23            1                0.930376
+                2             7               3            6                0.983495
+                2             7               7            6                1.028724
+                3             6               4            6                0.968729
+                3             6              24            1                0.915967
+                3             6              25            1                0.915891
+                4             6               5            8                2.073599
+                4             6               6            8                1.293544
+                6             8              26            1                0.865792
+                7             6               8            6                0.962233
+                7             6              27            1                0.918075
+                7             6              28            1                0.913295
+                8             6               9            8                1.948626
+                8             6              10            8                1.287089
+                9             8              26            1                0.150892
+               10             8              29            1                0.930902
+               11             7              12            6                0.950137
+               11             7              16            6                0.967230
+               12             6              13            6                0.956892
+               12             6              30            1                0.920364
+               12             6              31            1                0.920570
+               13             6              14            8                2.103983
+               13             6              15            8                1.248250
+               15             8              32            1                0.914660
+               16             6              17            6                0.963587
+               16             6              33            1                0.923775
+               16             6              34            1                0.918120
+               17             6              18            8                2.102660
+               17             6              19            8                1.264839
+               19             8              35            1                0.911683
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 22
+   prop. index: 1
+       Filename                          : EDTA_DFT.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :       12.6946357669
+        Electronic Contribution:
+                  0    
+      0      -0.651911
+      1      -4.321891
+      2      -4.068452
+        Nuclear Contribution:
+                  0    
+      0      -0.633088
+      1       8.999257
+      2       5.257814
+        Total Dipole moment:
+                  0    
+      0      -1.285000
+      1       4.677366
+      2       1.189361
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     1 
+    Coordinates:
+               0 C      1.181970000000   -0.273230000000   -0.380250000000
+               1 C      0.550450000000    0.932760000000    0.375590000000
+               2 N     -0.919580000000    1.017800000000    0.270830000000
+               3 C     -1.600880000000   -0.184360000000    0.815280000000
+               4 C     -1.965590000000   -1.129790000000   -0.326520000000
+               5 O     -1.531120000000   -2.269040000000   -0.428900000000
+               6 O     -2.799750000000   -0.580750000000   -1.239910000000
+               7 C     -1.426340000000    2.259890000000    0.896690000000
+               8 C     -2.852850000000    2.558350000000    0.420980000000
+               9 O     -3.498830000000    1.830060000000   -0.325480000000
+              10 O     -3.356240000000    3.708950000000    0.919390000000
+              11 N      2.667210000000   -0.309420000000   -0.550570000000
+              12 C      3.389730000000   -0.096900000000    0.747590000000
+              13 C      3.115940000000   -1.201890000000    1.763610000000
+              14 O      3.139800000000   -1.030320000000    2.973140000000
+              15 O      2.883920000000   -2.407780000000    1.197610000000
+              16 C      3.069080000000    0.787210000000   -1.496680000000
+              17 C      4.452060000000    0.516400000000   -2.083690000000
+              18 O      5.232060000000    1.384520000000   -2.440740000000
+              19 O      4.706110000000   -0.809230000000   -2.209100000000
+              20 H      0.729550000000   -0.347130000000   -1.378320000000
+              21 H      0.886280000000   -1.196490000000    0.128200000000
+              22 H      0.969370000000    1.852340000000   -0.048820000000
+              23 H      0.842370000000    0.901950000000    1.432590000000
+              24 H     -2.537480000000    0.049530000000    1.336200000000
+              25 H     -0.979930000000   -0.714160000000    1.547350000000
+              26 H     -3.046760000000    0.351960000000   -1.013110000000
+              27 H     -0.815540000000    3.112750000000    0.577930000000
+              28 H     -1.410260000000    2.189370000000    1.989820000000
+              29 H     -2.749240000000    4.210350000000    1.497070000000
+              30 H      3.128370000000    0.866490000000    1.198460000000
+              31 H      4.472210000000   -0.110720000000    0.576170000000
+              32 H      2.839850000000   -2.319000000000    0.223140000000
+              33 H      3.075890000000    1.764820000000   -1.002460000000
+              34 H      2.385880000000    0.826020000000   -2.353290000000
+              35 H      3.929940000000   -1.304620000000   -1.871590000000
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     2 
+    Coordinates:
+               0 C      1.151646299546   -0.240899803743   -0.362442117798
+               1 C      0.535643194928    0.952164578062    0.399557246781
+               2 N     -0.926809285368    1.011447369303    0.281496531578
+               3 C     -1.585838680976   -0.189324187685    0.837206059486
+               4 C     -1.933580549091   -1.182409974969   -0.272457914248
+               5 O     -1.516178834078   -2.319923593620   -0.325353886497
+               6 O     -2.756118379453   -0.698729569058   -1.205614131245
+               7 C     -1.439581466289    2.255677792112    0.867024370413
+               8 C     -2.844683926279    2.609513408397    0.376392645106
+               9 O     -3.514399528221    1.938793010259   -0.382435870602
+              10 O     -3.324984530366    3.762822299721    0.840526871620
+              11 N      2.628947354411   -0.247357448733   -0.531329049602
+              12 C      3.358605428354   -0.101448307251    0.751657104060
+              13 C      3.123795418878   -1.278183740892    1.691272868373
+              14 O      3.171474428658   -1.192855441788    2.895194893098
+              15 O      2.927664538473   -2.454571574245    1.076640759924
+              16 C      3.057351267493    0.825595361576   -1.464046923563
+              17 C      4.426633293510    0.516049526799   -2.066561491641
+              18 O      5.203034866134    1.353695813563   -2.459728317886
+              19 O      4.686426539897   -0.796596743365   -2.168514146673
+              20 H      0.704609462151   -0.295114048507   -1.366674414174
+              21 H      0.864150751050   -1.178730180248    0.134638633885
+              22 H      0.941203630780    1.884100915771   -0.024139701995
+              23 H      0.834142653639    0.919199945807    1.466173222291
+              24 H     -2.529634545077    0.065561480082    1.342901140853
+              25 H     -0.962182009929   -0.696151103687    1.592865328601
+              26 H     -2.994046922985    0.242317971563   -1.006452164354
+              27 H     -0.796424368092    3.092581843388    0.552101463979
+              28 H     -1.445169776071    2.217607868713    1.973780435677
+              29 H     -2.707139161489    4.229943135291    1.428789250603
+              30 H      3.105838296149    0.834128861567    1.273786321585
+              31 H      4.442683181475   -0.094592592305    0.551361937274
+              32 H      2.890053068046   -2.312827031612    0.109993635384
+              33 H      3.091949878064    1.817348062857   -0.986711287929
+              34 H      2.356802298373    0.867310692215   -2.312762043771
+              35 H      3.931766113755   -1.279454595338   -1.769927258595
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     3 
+    Coordinates:
+               0 C      1.163279515095   -0.217123702018   -0.326720675822
+               1 C      0.565969563032    0.966971512439    0.445133762745
+               2 N     -0.894397251775    1.011930490580    0.330023595880
+               3 C     -1.565794467813   -0.168976229350    0.885097072225
+               4 C     -1.994324880977   -1.122003515661   -0.227405251060
+               5 O     -1.668622511911   -2.281172444848   -0.307935853661
+               6 O     -2.791397058746   -0.571946858686   -1.134814341573
+               7 C     -1.440141164747    2.247565806467    0.850048320716
+               8 C     -2.833209307345    2.505999221185    0.297147583658
+               9 O     -3.435515098013    1.758429084114   -0.438778554010
+              10 O     -3.410658861097    3.638608798988    0.666944899731
+              11 N      2.631883357598   -0.203288208587   -0.503367917161
+              12 C      3.376550215317   -0.127875642195    0.761599372826
+              13 C      3.158651967690   -1.347215799499    1.651534160170
+              14 O      3.241502361033   -1.315889661342    2.848889438249
+              15 O      2.916643476678   -2.496706510149    1.016061019180
+              16 C      3.077061804338    0.854183809278   -1.422842347520
+              17 C      4.417061613380    0.521953546296   -2.080141606793
+              18 O      5.184554932211    1.347410318018   -2.496848324963
+              19 O      4.660921268123   -0.779597692993   -2.225794203388
+              20 H      0.714662479232   -0.249753122849   -1.332663987354
+              21 H      0.886236305569   -1.167139093612    0.158512210802
+              22 H      0.959884479538    1.905967250526    0.020178972792
+              23 H      0.877560107835    0.933246979192    1.514322431850
+              24 H     -2.492649011041    0.138648440149    1.398148105964
+              25 H     -0.954284197218   -0.710893314577    1.631472141832
+              26 H     -2.941869209366    0.379736723325   -0.911982764357
+              27 H     -0.810822589861    3.092444354083    0.518768950490
+              28 H     -1.487138819808    2.276856740433    1.963548138402
+              29 H     -2.842474634233    4.164890230670    1.253442135762
+              30 H      3.160870817269    0.784889572245    1.344169529063
+              31 H      4.458037065105   -0.123315202521    0.530145994104
+              32 H      2.849754041996   -2.322581534039    0.058124736871
+              33 H      3.154844598593    1.849170133302   -0.948793497890
+              34 H      2.345722986583    0.922240609968   -2.247259260570
+              35 H      3.919296107735   -1.258975088332   -1.799753987188
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     4 
+    Coordinates:
+               0 C      1.154088203216   -0.186133788772   -0.318257840395
+               1 C      0.550501749231    0.986999026569    0.465105079348
+               2 N     -0.911618260423    1.019725744703    0.351016456996
+               3 C     -1.573107939243   -0.153620429280    0.938808632606
+               4 C     -1.910675743140   -1.212667012367   -0.113993356139
+               5 O     -1.550021494567   -2.366003470612   -0.058963250458
+               6 O     -2.643837651927   -0.777911067709   -1.133267352079
+               7 C     -1.459332046771    2.277618148666    0.816400077856
+               8 C     -2.833995973739    2.565780039756    0.237992473974
+               9 O     -3.443450978319    1.824090480353   -0.503696917008
+              10 O     -3.393662444467    3.715070530342    0.591506525659
+              11 N      2.622639339795   -0.164803896243   -0.481633507656
+              12 C      3.370867902236   -0.177171886908    0.781461113682
+              13 C      3.154586883601   -1.443744651651    1.606230146316
+              14 O      3.255075929757   -1.475851403576    2.805315656790
+              15 O      2.864144383682   -2.552723348044    0.918012581440
+              16 C      3.090706424695    0.907000954392   -1.367542884176
+              17 C      4.392267539942    0.557814435029   -2.089798915146
+              18 O      5.173074050212    1.380125605648   -2.496756355965
+              19 O      4.573661818970   -0.741673585669   -2.322727788283
+              20 H      0.717354502054   -0.194878664164   -1.329699107220
+              21 H      0.876147283150   -1.145844442949    0.145079049823
+              22 H      0.934593165766    1.931747931332    0.047009155494
+              23 H      0.863867181781    0.949453628625    1.532100949915
+              24 H     -2.529343912034    0.156635048202    1.392196417046
+              25 H     -0.979055828920   -0.625085412104    1.742928607873
+              26 H     -2.839393946707    0.187731505016   -1.025068559910
+              27 H     -0.806997794870    3.102369653440    0.480353643058
+              28 H     -1.527685789023    2.354388144721    1.926155388011
+              29 H     -2.823483988544    4.227682957818    1.190819144511
+              30 H      3.177431658920    0.697969072568    1.425754699344
+              31 H      4.449991804720   -0.167342810300    0.542322477325
+              32 H      2.775538673271   -2.329261045683   -0.027744969017
+              33 H      3.225911287052    1.879621556426   -0.861277763504
+              34 H      2.337776902219    1.044295972324   -2.162831361949
+              35 H      3.823087108422   -1.214713519903   -1.905098348163
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     5 
+    Coordinates:
+               0 C      1.146978062915   -0.170030176801   -0.309430572965
+               1 C      0.537194590344    1.004435057788    0.475748070265
+               2 N     -0.927656727029    1.030263348930    0.375824697983
+               3 C     -1.573354698473   -0.139695594421    0.991178594353
+               4 C     -1.920719573020   -1.213984827392   -0.042145772700
+               5 O     -1.567838203973   -2.372540755468    0.042264811106
+               6 O     -2.688821586172   -0.796349949948   -1.049179983006
+               7 C     -1.493694767866    2.303664708260    0.789395814328
+               8 C     -2.845324542279    2.584993596379    0.149357286199
+               9 O     -3.405953345037    1.842701629470   -0.637547482598
+              10 O     -3.412066510469    3.747938472084    0.468212201466
+              11 N      2.618283622763   -0.152834722149   -0.465957650109
+              12 C      3.373425869303   -0.220696816676    0.793192229595
+              13 C      3.206482203890   -1.539724593922    1.541408885957
+              14 O      3.338312808843   -1.640990468221    2.739102787683
+              15 O      3.012568481520   -2.621697619962    0.773520038814
+              16 C      3.096024397450    0.934799820602   -1.327581110302
+              17 C      4.371850102531    0.569537400044   -2.082251015782
+              18 O      5.173314676034    1.384864879200   -2.477916107431
+              19 O      4.531442933614   -0.740765648272   -2.299096146839
+              20 H      0.713017013375   -0.174000326948   -1.321486501596
+              21 H      0.865422854978   -1.128409586329    0.150453003104
+              22 H      0.913510079664    1.947825014486    0.052328305395
+              23 H      0.857427674248    0.972422319255    1.537120008434
+              24 H     -2.521859283542    0.163210726123    1.461829751288
+              25 H     -0.957929397482   -0.598503571831    1.783873777175
+              26 H     -2.907579588008    0.166208038092   -0.942830006553
+              27 H     -0.829152785307    3.120856887234    0.463108962467
+              28 H     -1.603489180840    2.411357807887    1.890248524341
+              29 H     -2.872394011311    4.260509018330    1.097199574636
+              30 H      3.154065720646    0.603314591275    1.492622313549
+              31 H      4.450146835434   -0.158386111857    0.557527968069
+              32 H      2.936992862225   -2.347660368108   -0.161306882669
+              33 H      3.268520970588    1.888000069410   -0.798966433817
+              34 H      2.337511705194    1.119222479708   -2.106039304967
+              35 H      3.782990735250   -1.203164726251   -1.865572634875
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     6 
+    Coordinates:
+               0 C      1.154147028388   -0.152776543102   -0.293960057416
+               1 C      0.549672453734    1.021522972395    0.494631373384
+               2 N     -0.915116936770    1.035604363733    0.410034829091
+               3 C     -1.551014733224   -0.121969050376    1.049255460924
+               4 C     -1.888098488889   -1.219498686303    0.038343192534
+               5 O     -1.565179218098   -2.381802643478    0.171414413087
+               6 O     -2.577860100839   -0.809467999690   -1.025416143379
+               7 C     -1.503336567557    2.313203213732    0.762378399958
+               8 C     -2.846367394092    2.548428979021    0.086426332474
+               9 O     -3.383800644438    1.762646502502   -0.673852746940
+              10 O     -3.447572010234    3.704059691908    0.360579366524
+              11 N      2.623131268406   -0.136180739413   -0.446163498687
+              12 C      3.377084725899   -0.264546363749    0.804314830120
+              13 C      3.198828007175   -1.607779917423    1.504036708915
+              14 O      3.344699259675   -1.754442418962    2.694742209247
+              15 O      2.920082993646   -2.649928932956    0.709088024951
+              16 C      3.114414346067    0.967690121438   -1.273840134950
+              17 C      4.350840846562    0.597805261431   -2.088996371834
+              18 O      5.155495004525    1.408670789167   -2.485835872224
+              19 O      4.449173484575   -0.699949900029   -2.392334375664
+              20 H      0.720563944521   -0.149102583347   -1.306459832516
+              21 H      0.871656775079   -1.112835387105    0.163309477727
+              22 H      0.915352512771    1.965445338947    0.062772276484
+              23 H      0.883675840205    0.995154287965    1.552406631898
+              24 H     -2.504742540163    0.186743423308    1.506704180648
+              25 H     -0.935549596269   -0.560835279448    1.853726344226
+              26 H     -2.762366218584    0.165370170608   -0.965271577045
+              27 H     -0.843059341825    3.127604443899    0.419375513185
+              28 H     -1.637252732825    2.470907286840    1.855395722643
+              29 H     -2.929363110531    4.245883231509    0.982426506529
+              30 H      3.171053684393    0.530660322578    1.541479580549
+              31 H      4.454567509514   -0.202847837173    0.569631226860
+              32 H      2.818483119123   -2.338363406309   -0.210511850336
+              33 H      3.339289067506    1.892305447278   -0.713921979747
+              34 H      2.338563570937    1.217050064670   -2.017021036751
+              35 H      3.697554191638   -1.157738224066   -1.960677124468
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     7 
+    Coordinates:
+               0 C      1.157719817349   -0.122111766062   -0.292773073917
+               1 C      0.563597958819    1.048821072530    0.507718486637
+               2 N     -0.900957305463    1.050174340789    0.447843409356
+               3 C     -1.526062991142   -0.091992485961    1.116054703952
+               4 C     -1.856161582530   -1.227854366939    0.143261294135
+               5 O     -1.588296011450   -2.391414752480    0.356089346252
+               6 O     -2.507756467739   -0.860822163083   -0.956917257885
+               7 C     -1.511145627641    2.326734704056    0.734835083984
+               8 C     -2.835400406217    2.508941860126    0.010556835107
+               9 O     -3.320932311875    1.689123464815   -0.746732028787
+              10 O     -3.484856542315    3.646056350599    0.237250991750
+              11 N      2.624517787520   -0.114722148537   -0.440822025736
+              12 C      3.375018170467   -0.320186626171    0.795872022055
+              13 C      3.174032760449   -1.690747379270    1.434546554770
+              14 O      3.367168902506   -1.900798981950    2.607283518106
+              15 O      2.800884204490   -2.678915439220    0.612532600111
+              16 C      3.140656371774    1.005530806625   -1.225715552607
+              17 C      4.348882182226    0.638298218130   -2.085301970801
+              18 O      5.158961230641    1.446335582649   -2.472822994045
+              19 O      4.419576580167   -0.647970058627   -2.431435572029
+              20 H      0.722420510826   -0.104864177675   -1.304635783500
+              21 H      0.870561504796   -1.084349493511    0.158136297625
+              22 H      0.915891542415    1.994737961622    0.068633859426
+              23 H      0.919059612969    1.023805850882    1.559306920050
+              24 H     -2.482702483512    0.223854822309    1.565818413251
+              25 H     -0.905607630778   -0.502890441652    1.931810852039
+              26 H     -2.680824133498    0.119302286869   -0.951934781294
+              27 H     -0.852676958478    3.139651946862    0.383249784277
+              28 H     -1.683088909593    2.529765070315    1.815651020169
+              29 H     -3.008491367324    4.215584768910    0.867350849462
+              30 H      3.187839387501    0.437948244615    1.577230581437
+              31 H      4.453401319999   -0.263888533417    0.562056567370
+              32 H      2.660617993884   -2.318102236666   -0.283059543528
+              33 H      3.409968191288    1.896458782270   -0.631038722265
+              34 H      2.360304692646    1.321399123217   -1.938893383199
+              35 H      3.671530006822   -1.104204206968   -1.992797301728
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     8 
+    Coordinates:
+               0 C      1.145996958232   -0.102032632755   -0.290136404298
+               1 C      0.562144386626    1.071165625429    0.516469070457
+               2 N     -0.901897476120    1.068733742596    0.480883316273
+               3 C     -1.522116889286   -0.055506572778    1.178065440382
+               4 C     -1.862869215742   -1.223255176541    0.245203295822
+               5 O     -1.633908032916   -2.382182357362    0.519721586134
+               6 O     -2.422857836594   -0.887302672151   -0.912152753660
+               7 C     -1.525566845019    2.347245146296    0.709478687338
+               8 C     -2.834351882608    2.491144911059   -0.052649080590
+               9 O     -3.279651444356    1.647690527292   -0.807861793610
+              10 O     -3.516574265678    3.614962976532    0.137307749616
+              11 N      2.613356799293   -0.109645408475   -0.432666633830
+              12 C      3.360429102203   -0.370758770011    0.794772145670
+              13 C      3.187356829437   -1.775599236795    1.366211568658
+              14 O      3.407836734095   -2.037880104288    2.523049101151
+              15 O      2.834595774785   -2.734283923188    0.501948678686
+              16 C      3.148114256450    1.025418689624   -1.182307811187
+              17 C      4.337011515742    0.663191707309   -2.072254801631
+              18 O      5.140043339077    1.473666944067   -2.468136547831
+              19 O      4.383109230435   -0.613737376047   -2.451613962916
+              20 H      0.709413864027   -0.078010486517   -1.301327196031
+              21 H      0.848881200790   -1.061110162281    0.160562076962
+              22 H      0.906357663445    2.015446857389    0.067990342782
+              23 H      0.937267763801    1.049242755338    1.561276897536
+              24 H     -2.475175974211    0.270347769151    1.630139891647
+              25 H     -0.893928973698   -0.446304333461    1.997920502050
+              26 H     -2.569800981134    0.096930850885   -0.963854315218
+              27 H     -0.865725808813    3.155210574956    0.349082276256
+              28 H     -1.727118622389    2.586139641044    1.777487939869
+              29 H     -3.075388601057    4.205963113309    0.773411561824
+              30 H      3.153447375974    0.339037119058    1.616295003861
+              31 H      4.439004898854   -0.278086355493    0.575118540070
+              32 H      2.691308163257   -2.339052595830   -0.378235851134
+              33 H      3.449459694019    1.885137709048   -0.557974253715
+              34 H      2.368785759522    1.393807541342   -1.870923822756
+              35 H      3.640661539556   -1.069046037752   -2.002090444634
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     9 
+    Coordinates:
+               0 C      1.147823266929   -0.100719460873   -0.299035982142
+               1 C      0.563911539478    1.070898143161    0.513104785284
+               2 N     -0.899436790877    1.064474676508    0.494281193636
+               3 C     -1.509533078088   -0.057017992584    1.204020167570
+               4 C     -1.880742958566   -1.227664727609    0.286001064326
+               5 O     -1.686662900685   -2.388248093337    0.582090985117
+               6 O     -2.438617203603   -0.893588186621   -0.872146701797
+               7 C     -1.530688595039    2.345638222770    0.701434694462
+               8 C     -2.817799513155    2.497520375945   -0.102092189710
+               9 O     -3.223602759184    1.674490545428   -0.900960733966
+              10 O     -3.509596304974    3.617229654207    0.084421194751
+              11 N      2.617057067925   -0.114848441109   -0.436895520892
+              12 C      3.358479794198   -0.385890161259    0.795448302833
+              13 C      3.199584318841   -1.798228340410    1.354452842177
+              14 O      3.420154752453   -2.064432444257    2.511160281937
+              15 O      2.831904441017   -2.750590432086    0.488380488976
+              16 C      3.153536352424    1.034324758967   -1.169208726185
+              17 C      4.336072869203    0.685664372902   -2.073859655936
+              18 O      5.137389011616    1.502492283235   -2.461755804457
+              19 O      4.373548826539   -0.585162635116   -2.476655009412
+              20 H      0.710754874145   -0.076590410708   -1.309754911599
+              21 H      0.846088733560   -1.058026418695    0.152241459861
+              22 H      0.900676978460    2.016088377166    0.061753454171
+              23 H      0.951394618801    1.048713745894    1.552839781701
+              24 H     -2.447832205250    0.268001088243    1.686272348317
+              25 H     -0.860395774478   -0.452373449477    2.005230301671
+              26 H     -2.583799185667    0.090335693074   -0.925870634405
+              27 H     -0.859793904422    3.152935008512    0.361824800316
+              28 H     -1.762709617687    2.580330525177    1.763453293599
+              29 H     -3.100312654253    4.198075670429    0.750703355898
+              30 H      3.131830650014    0.311250243452    1.622424437843
+              31 H      4.437628020004   -0.275935615488    0.590795999517
+              32 H      2.687246538037   -2.352672139241   -0.390118854212
+              33 H      3.463641037941    1.875538327528   -0.524800712203
+              34 H      2.374733230575    1.426072796561   -1.844700079013
+              35 H      3.625716523769   -1.041395560290   -2.036269718033
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     10 
+    Coordinates:
+               0 C      1.145149092016   -0.095328769519   -0.314808262494
+               1 C      0.563476416793    1.072627675647    0.505302872426
+               2 N     -0.899293472298    1.062616583696    0.499694995472
+               3 C     -1.501697386311   -0.064105585668    1.205351904579
+               4 C     -1.873532261986   -1.232403308138    0.284651171894
+               5 O     -1.727278829304   -2.394688031587    0.602172061125
+               6 O     -2.410276886260   -0.895628415120   -0.883140534567
+               7 C     -1.534105022635    2.343871264134    0.710508321094
+               8 C     -2.825383469233    2.499020292316   -0.088896148015
+               9 O     -3.245203594205    1.669767943425   -0.874303882439
+              10 O     -3.513475085439    3.620803225405    0.103375624315
+              11 N      2.615006689224   -0.115785531420   -0.452168054152
+              12 C      3.349186914945   -0.378150896548    0.787902723628
+              13 C      3.181666439076   -1.786229115011    1.353271019377
+              14 O      3.415352073981   -2.050786665639    2.508453892161
+              15 O      2.802685653804   -2.737989706359    0.490976612052
+              16 C      3.153894088451    1.033959691267   -1.184887051783
+              17 C      4.342688757488    0.682189992889   -2.079531986820
+              18 O      5.152625929450    1.495807797067   -2.457616960367
+              19 O      4.405927714243   -0.600829430246   -2.441650479219
+              20 H      0.707583230478   -0.068148075770   -1.325029096534
+              21 H      0.839635146886   -1.053328165792    0.133550753126
+              22 H      0.894237166700    2.020591767370    0.055848253155
+              23 H      0.960255932004    1.045994956033    1.541172613926
+              24 H     -2.437161794696    0.252487248816    1.698481218917
+              25 H     -0.846700867566   -0.463620811131    1.999715948439
+              26 H     -2.529240577431    0.090356822772   -0.950032751196
+              27 H     -0.865799394093    3.152119373161    0.369274278701
+              28 H     -1.761817600826    2.571317008944    1.774578023737
+              29 H     -3.096698323736    4.205356557912    0.761723148186
+              30 H      3.114949166665    0.325036751946    1.606982274048
+              31 H      4.429711648293   -0.271436219225    0.590928532829
+              32 H      2.656383630691   -2.341996910157   -0.388453382816
+              33 H      3.457708299114    1.875229636633   -0.537689227846
+              34 H      2.380371355488    1.422908196426   -1.867471726514
+              35 H      3.656819220227   -1.054917148530   -2.000026698427
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     11 
+    Coordinates:
+               0 C      1.142117283481   -0.088453322752   -0.312191274469
+               1 C      0.565066809735    1.078275034824    0.511327924108
+               2 N     -0.897353498451    1.065620347003    0.509984672196
+               3 C     -1.497001027230   -0.062284271329    1.213148271552
+               4 C     -1.862138162960   -1.234362235028    0.294422272308
+               5 O     -1.713391093604   -2.394656711404    0.616386157515
+               6 O     -2.383472173282   -0.904517103359   -0.882121551174
+               7 C     -1.535654193544    2.343389577421    0.717596411185
+               8 C     -2.815846246327    2.493034196479   -0.096934289030
+               9 O     -3.217570194936    1.664027695598   -0.891379855773
+              10 O     -3.507329825945    3.614601978908    0.079252771958
+              11 N      2.611018866082   -0.112393665247   -0.451495903188
+              12 C      3.343909703153   -0.380916208162    0.786364400047
+              13 C      3.167923779570   -1.790211892949    1.345379886046
+              14 O      3.418690725335   -2.065109702235    2.494024723678
+              15 O      2.778252679054   -2.735157741247    0.481326824452
+              16 C      3.153761270159    1.036139337927   -1.181047039914
+              17 C      4.342749779237    0.682087605245   -2.074411023842
+              18 O      5.139960712867    1.498675817746   -2.471320694277
+              19 O      4.399082393944   -0.597919141331   -2.445515336584
+              20 H      0.704934789498   -0.056342444627   -1.322465565366
+              21 H      0.834244887169   -1.047799637854    0.132613218144
+              22 H      0.893335471319    2.027547732217    0.062486097781
+              23 H      0.965870075967    1.050005974446    1.546004856343
+              24 H     -2.435128692220    0.251617398465    1.703594134658
+              25 H     -0.843414716335   -0.458789452375    2.010466097741
+              26 H     -2.511270665164    0.079661671461   -0.951910859394
+              27 H     -0.865708361924    3.154108490177    0.385114614104
+              28 H     -1.777403826089    2.567845075503    1.779422425454
+              29 H     -3.100301670379    4.201096519436    0.741791229863
+              30 H      3.114976435780    0.320835744420    1.608063803098
+              31 H      4.424862661644   -0.279697277446    0.587517512320
+              32 H      2.625348727737   -2.333437812910   -0.394454663078
+              33 H      3.458859940172    1.876261832969   -0.532737630727
+              34 H      2.380810544978    1.426896190391   -1.863592563120
+              35 H      3.654856811509   -1.052989600385   -1.996500054614
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     12 
+    Coordinates:
+               0 C      1.137797651562   -0.083021488173   -0.307531930732
+               1 C      0.565475754711    1.085065625526    0.516647984626
+               2 N     -0.896932413048    1.071126343018    0.521466652601
+               3 C     -1.494339650166   -0.051886341973    1.232015362724
+               4 C     -1.859841753334   -1.232796087549    0.324616954722
+               5 O     -1.711211511124   -2.389505712917    0.658420017866
+               6 O     -2.365551876696   -0.915283324820   -0.861859747773
+               7 C     -1.539288049316    2.347985003098    0.712896867861
+               8 C     -2.806182299546    2.488604706101   -0.122418897267
+               9 O     -3.193899457610    1.651397538236   -0.914794341955
+              10 O     -3.507396213885    3.605858668049    0.038962000177
+              11 N      2.606390014757   -0.111123354676   -0.449800742176
+              12 C      3.341929053968   -0.395622845553    0.782566330031
+              13 C      3.176131816556   -1.815308586510    1.318729927712
+              14 O      3.421151007039   -2.104674728142    2.464737075739
+              15 O      2.776967088632   -2.747472254232    0.445635896271
+              16 C      3.151483829474    1.042044115667   -1.169219981446
+              17 C      4.336680033447    0.692664777718   -2.069376851475
+              18 O      5.134937724349    1.510571450111   -2.460741592644
+              19 O      4.394508283796   -0.585312919274   -2.445008834483
+              20 H      0.700319433114   -0.047855654549   -1.317611043459
+              21 H      0.827273854537   -1.042058900374    0.135943030759
+              22 H      0.891144720107    2.033738990513    0.064510536868
+              23 H      0.971509654898    1.059133513164    1.549587881507
+              24 H     -2.432526389781    0.264685287289    1.721101439783
+              25 H     -0.840302417211   -0.441948742287    2.032441967908
+              26 H     -2.498313786823    0.067592017096   -0.939919304072
+              27 H     -0.866091792932    3.158336649698    0.385908040924
+              28 H     -1.798266270189    2.578240618438    1.769468108467
+              29 H     -3.111937347494    4.197221439493    0.704035694113
+              30 H      3.111083933536    0.291869411200    1.615818947954
+              31 H      4.422093027951   -0.285334965159    0.583746435458
+              32 H      2.624225021516   -2.335341565143   -0.425310738398
+              33 H      3.461167848660    1.875103455749   -0.513854716104
+              34 H      2.377571186342    1.441755817544   -1.845597456264
+              35 H      3.649890290202   -1.041757956377   -1.998000975824
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     13 
+    Coordinates:
+               0 C      1.136793277880   -0.082381039396   -0.306518943554
+               1 C      0.565744784638    1.085425701483    0.519350776915
+               2 N     -0.896784617945    1.070996760101    0.528738043521
+               3 C     -1.493074961939   -0.049281717701    1.243549863490
+               4 C     -1.861025360831   -1.233676773254    0.341594690637
+               5 O     -1.729581024613   -2.389014936112    0.687515847613
+               6 O     -2.359446911726   -0.920492961345   -0.849240628285
+               7 C     -1.542159865289    2.348585125661    0.709702953233
+               8 C     -2.804195501338    2.485706923599   -0.135180373421
+               9 O     -3.189511852422    1.643389828410   -0.923397236689
+              10 O     -3.502027673059    3.607305929634    0.011436224593
+              11 N      2.605756800123   -0.112661242499   -0.449767898538
+              12 C      3.341522643067   -0.404333516301    0.781794816929
+              13 C      3.177733618193   -1.827518862018    1.310019108176
+              14 O      3.433501302834   -2.124593909845    2.451876989743
+              15 O      2.777786283041   -2.755492036032    0.432668253940
+              16 C      3.150783275429    1.046025699510   -1.162003801260
+              17 C      4.335204441162    0.704026016554   -2.066134419744
+              18 O      5.134283142939    1.525134176455   -2.449489715297
+              19 O      4.390872135787   -0.570089701850   -2.455231039730
+              20 H      0.699230166221   -0.045614832675   -1.316491144525
+              21 H      0.825091021012   -1.041410065805    0.135700103858
+              22 H      0.889424300147    2.034180769504    0.066197771449
+              23 H      0.975134967918    1.060096617729    1.550926613977
+              24 H     -2.430151022277    0.268849898234    1.733699964412
+              25 H     -0.838333519881   -0.437518422787    2.044388233633
+              26 H     -2.482528421036    0.063220602323   -0.934716556055
+              27 H     -0.867287141785    3.158128043355    0.384409603568
+              28 H     -1.808812106094    2.582292400633    1.763385225773
+              29 H     -3.107428734155    4.203500967258    0.672621629441
+              30 H      3.109093480107    0.278053445189    1.618706325549
+              31 H      4.421616983738   -0.291238927854    0.584503460117
+              32 H      2.620284710964   -2.339068689868   -0.435303636266
+              33 H      3.461009799139    1.873610462581   -0.500113597729
+              34 H      2.376408508466    1.451250015807   -1.834468486688
+              35 H      3.642723071585   -1.028701748678   -2.016519022786
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     14 
+    Coordinates:
+               0 C      1.135020054625   -0.077896476967   -0.306634063221
+               1 C      0.566277381127    1.087545778263    0.524582181278
+               2 N     -0.896225084807    1.071353731033    0.541640883192
+               3 C     -1.489339631590   -0.046238935132    1.261956644757
+               4 C     -1.860405384647   -1.236048800945    0.368274967701
+               5 O     -1.742971984221   -2.388797221677    0.728013700887
+               6 O     -2.347019207549   -0.930544322641   -0.829739571664
+               7 C     -1.547296095881    2.348657586623    0.708884065606
+               8 C     -2.798355270640    2.481030233202   -0.154633908516
+               9 O     -3.174760517627    1.633091499187   -0.941295563950
+              10 O     -3.494534617870    3.606430579160   -0.027588354167
+              11 N      2.604046837495   -0.111202424704   -0.452012855362
+              12 C      3.338729874877   -0.413273560194    0.778159858063
+              13 C      3.174791742112   -1.841780961219    1.290759433563
+              14 O      3.441186033486   -2.153859179843    2.426462434369
+              15 O      2.764635655084   -2.757231493461    0.404996443951
+              16 C      3.150959918441    1.052100173666   -1.156305028579
+              17 C      4.336525527302    0.714479448070   -2.060305590078
+              18 O      5.135766148047    1.537998074731   -2.438847476390
+              19 O      4.392764463362   -0.558049959707   -2.455665048334
+              20 H      0.696503105867   -0.037354303320   -1.316045913785
+              21 H      0.822625178184   -1.038086724829    0.132509262929
+              22 H      0.886177804758    2.037593379612    0.071910749555
+              23 H      0.981091121567    1.060980520534    1.553827980665
+              24 H     -2.424848151919    0.273018516501    1.754174121910
+              25 H     -0.832664478393   -0.431250027344    2.062861344227
+              26 H     -2.462335952315    0.053308561899   -0.924961689545
+              27 H     -0.869697960017    3.158904384634    0.391586456099
+              28 H     -1.830020527681    2.583566217011    1.757821908539
+              29 H     -3.105168350721    4.207347742902    0.632313723183
+              30 H      3.103902727341    0.260906353573    1.620930647764
+              31 H      4.418970463002   -0.297680828540    0.583804785222
+              32 H      2.600812343830   -2.329333607788   -0.456319922936
+              33 H      3.460329675331    1.875052000277   -0.488438082606
+              34 H      2.378022217793    1.461586359489   -1.827741834505
+              35 H      3.644154942246   -1.019632312058   -2.020726689821
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     15 
+    Coordinates:
+               0 C      1.125400976310   -0.061727823754   -0.300875851273
+               1 C      0.568435365111    1.098120092516    0.546254560397
+               2 N     -0.893309864730    1.078820512836    0.586504370094
+               3 C     -1.478545124540   -0.024937626894    1.328899143284
+               4 C     -1.854133894756   -1.238997952899    0.469605988333
+               5 O     -1.780333852411   -2.377834085664    0.881400461206
+               6 O     -2.301439218865   -0.971330262784   -0.752983522137
+               7 C     -1.562319642096    2.353037202661    0.698943311305
+               8 C     -2.768282083164    2.461382005474   -0.232713582088
+               9 O     -3.109715674810    1.588388870171   -1.007716828697
+              10 O     -3.466643641385    3.591641734046   -0.174635926114
+              11 N      2.593966389856   -0.106609068823   -0.453883376659
+              12 C      3.326278690859   -0.452514535148    0.766818539950
+              13 C      3.171692776120   -1.903295560736    1.214624341960
+              14 O      3.469064081324   -2.270362597594    2.326257005271
+              15 O      2.738877484614   -2.774314907543    0.295846222374
+              16 C      3.148656998334    1.072843213805   -1.125791149458
+              17 C      4.333469554242    0.754699785652   -2.037463272591
+              18 O      5.135784987856    1.586109054630   -2.392216160558
+              19 O      4.384621590196   -0.505776554036   -2.471143391597
+              20 H      0.683395522495   -0.007407004890   -1.308145329504
+              21 H      0.808728369845   -1.024762228565    0.128951730251
+              22 H      0.878828126091    2.051187231655    0.094194610448
+              23 H      1.000118848348    1.067483993768    1.568258111244
+              24 H     -2.411945490283    0.301906053834    1.820225383587
+              25 H     -0.818899309610   -0.392862467862    2.135756869970
+              26 H     -2.395675085265    0.010312951456   -0.888059863718
+              27 H     -0.876016671486    3.165895190113    0.409270004075
+              28 H     -1.905308745654    2.597086946647    1.727098636674
+              29 H     -3.101671367192    4.211021575648    0.481769661237
+              30 H      3.081317845306    0.184146243687    1.635397568751
+              31 H      4.406403528930   -0.320705657358    0.583496206784
+              32 H      2.555471119785   -2.304726224603   -0.539686729660
+              33 H      3.460530825082    1.875215330287   -0.434689941201
+              34 H      2.378395378575    1.503636439164   -1.786868459779
+              35 H      3.632451206969   -0.978079868897   -2.054489342164
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     16 
+    Coordinates:
+               0 C      1.112774029939   -0.052306592343   -0.287887240380
+               1 C      0.567058715964    1.098819232152    0.578215803145
+               2 N     -0.893693153206    1.080386401629    0.636045548784
+               3 C     -1.477593604868   -0.012117178565    1.391688705769
+               4 C     -1.858841413247   -1.241366012227    0.556223509672
+               5 O     -1.821941260818   -2.367890207109    1.004663222089
+               6 O     -2.266999223107   -1.002342089020   -0.686253811873
+               7 C     -1.575714836676    2.350747103629    0.697546630810
+               8 C     -2.722317150855    2.446725118433   -0.309342041325
+               9 O     -3.026687959546    1.557239407844   -1.080690885873
+              10 O     -3.403814308116    3.589032899288   -0.327551787218
+              11 N      2.580321515132   -0.101900884640   -0.453965521011
+              12 C      3.316062294580   -0.479227613351    0.755756296414
+              13 C      3.183983713931   -1.949026545851    1.144209122462
+              14 O      3.508600187301   -2.361565539783    2.232182136429
+              15 O      2.734890008998   -2.781175448940    0.198070861731
+              16 C      3.134478267392    1.090093305478   -1.104118469776
+              17 C      4.318244156580    0.790711744898   -2.023010500935
+              18 O      5.123093731012    1.628563166634   -2.356288319416
+              19 O      4.369634735521   -0.459451568602   -2.486070766734
+              20 H      0.663067291338    0.015129907568   -1.290958017793
+              21 H      0.797149858724   -1.019581231224    0.133307628302
+              22 H      0.872277405556    2.056388163818    0.132745468624
+              23 H      1.011084687818    1.058034395562    1.594348115311
+              24 H     -2.409695995630    0.322491099571    1.880521120771
+              25 H     -0.818323032309   -0.370434979796    2.203457236789
+              26 H     -2.336258729900   -0.023544208849   -0.854408908187
+              27 H     -0.878174566990    3.168037560759    0.451144247717
+              28 H     -1.987888048621    2.594467689654    1.699468010309
+              29 H     -3.062706355721    4.220593380629    0.330070294354
+              30 H      3.057403236565    0.120837465930    1.646079971497
+              31 H      4.394433084844   -0.323459537110    0.581993451151
+              32 H      2.527985319035   -2.273436396464   -0.609717489957
+              33 H      3.445414343711    1.879781723941   -0.398378431691
+              34 H      2.362808391179    1.530926070888   -1.756995738613
+              35 H      3.617534664487   -0.943489804432   -2.083889451350
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     17 
+    Coordinates:
+               0 C      1.112070666592   -0.063880854501   -0.282637126503
+               1 C      0.563430006280    1.084165034993    0.585199511650
+               2 N     -0.897429393620    1.069844527838    0.635150576590
+               3 C     -1.489826276837   -0.030018308116    1.375214869129
+               4 C     -1.874253631363   -1.243244788934    0.518355880547
+               5 O     -1.820544496412   -2.379613677668    0.938957656282
+               6 O     -2.299709864020   -0.979966649199   -0.713342773075
+               7 C     -1.570383697737    2.343531732328    0.711635703226
+               8 C     -2.707707389716    2.466827721112   -0.301062543423
+               9 O     -3.021347684043    1.589743479025   -1.082570434494
+              10 O     -3.378111973290    3.615894457809   -0.303953991149
+              11 N      2.579304953356   -0.103420317585   -0.453508558406
+              12 C      3.322291306538   -0.453992448174    0.759507453778
+              13 C      3.203907372649   -1.918894234792    1.171066018676
+              14 O      3.521576141398   -2.311198534477    2.268317578519
+              15 O      2.768760504290   -2.768474388020    0.233959275106
+              16 C      3.121265381985    1.080751649088   -1.126374764567
+              17 C      4.309814003028    0.775409571519   -2.036966932846
+              18 O      5.109824639163    1.612644077609   -2.382231305725
+              19 O      4.371125729177   -0.481410309118   -2.480323351275
+              20 H      0.657548136035    0.000015465403   -1.283719785007
+              21 H      0.804100185163   -1.032581349597    0.141232025976
+              22 H      0.874316030789    2.043509728400    0.146959842890
+              23 H      1.000149544010    1.036258206377    1.604084088566
+              24 H     -2.422009919775    0.302875926445    1.865269624834
+              25 H     -0.833427932748   -0.402522703329    2.182686064592
+              26 H     -2.370808483935    0.001441043514   -0.863818366924
+              27 H     -0.864796246406    3.160175858105    0.486157268753
+              28 H     -1.989311440284    2.572344707827    1.714173022416
+              29 H     -3.034169651651    4.233824640144    0.365573463994
+              30 H      3.059910094146    0.157927937017    1.640594644796
+              31 H      4.398795813242   -0.290871728439    0.580645179682
+              32 H      2.560031471592   -2.270526453544   -0.579825255290
+              33 H      3.422096395577    1.888931582677   -0.437407958401
+              34 H      2.345570358166    1.498166952302   -1.789985447045
+              35 H      3.625599348659   -0.966977554038   -2.068801155872
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     18 
+    Coordinates:
+               0 C      1.107581088856   -0.069103402154   -0.278043090104
+               1 C      0.561077390139    1.078792042606    0.591523754667
+               2 N     -0.899271190754    1.067696725231    0.642738321959
+               3 C     -1.493890749707   -0.033398929707    1.378596054091
+               4 C     -1.878287119169   -1.242835092050    0.516422813563
+               5 O     -1.824032806763   -2.381155616505    0.931794509968
+               6 O     -2.296532346287   -0.975585161871   -0.716291610137
+               7 C     -1.570297624159    2.341248276019    0.716825430075
+               8 C     -2.693449888422    2.473721356744   -0.309176664727
+               9 O     -2.997965084524    1.601656436400   -1.099751286113
+              10 O     -3.359484904039    3.625242475585   -0.316783191650
+              11 N      2.574261966513   -0.104988021622   -0.454465338736
+              12 C      3.325392859217   -0.452232497383    0.753999164688
+              13 C      3.213133122581   -1.916591077648    1.172055468199
+              14 O      3.539260785865   -2.303448677668    2.268459261587
+              15 O      2.769211290929   -2.770126356691    0.242586994088
+              16 C      3.109753772934    1.078985782041   -1.132013446630
+              17 C      4.301723544721    0.780240787503   -2.040745213710
+              18 O      5.096083838664    1.622026460293   -2.387209021060
+              19 O      4.375704127613   -0.477767877446   -2.477750594800
+              20 H      0.647717199175   -0.006077708833   -1.276591287787
+              21 H      0.802342298845   -1.037672392673    0.148755053025
+              22 H      0.875167725067    2.038199926212    0.155470788872
+              23 H      0.997357889238    1.026458266506    1.610411031194
+              24 H     -2.426306721483    0.299066670969    1.869177066220
+              25 H     -0.836564996519   -0.409112720229    2.183679570621
+              26 H     -2.361410287617    0.005873681624   -0.870381078716
+              27 H     -0.860947868252    3.159474021948    0.508697735183
+              28 H     -2.003840747885    2.563172088224    1.714647193256
+              29 H     -3.026253701971    4.239732122982    0.361496306888
+              30 H      3.066511706100    0.159983797709    1.635842646525
+              31 H      4.400324823681   -0.285299835176    0.569432265258
+              32 H      2.549909121414   -2.272468425536   -0.568849376007
+              33 H      3.405312353866    1.892365570832   -0.446713571072
+              34 H      2.331731334582    1.489371173051   -1.797404422433
+              35 H      3.636627797550   -0.968753869286   -2.062232236244
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     19 
+    Coordinates:
+               0 C      1.103026153942   -0.070940030270   -0.268154429170
+               1 C      0.558878179381    1.075930438888    0.604968094509
+               2 N     -0.901086342093    1.067807921206    0.659424701739
+               3 C     -1.497808270788   -0.031130465501    1.395422760531
+               4 C     -1.880714694855   -1.242102565562    0.534525595097
+               5 O     -1.842024656738   -2.378435678475    0.957527165994
+               6 O     -2.289327356910   -0.978380829573   -0.701695236632
+               7 C     -1.573993925174    2.340554540416    0.716860385544
+               8 C     -2.671785480313    2.475106120947   -0.335880745009
+               9 O     -2.964416751881    1.599470177030   -1.127123303199
+              10 O     -3.332488467301    3.629400725281   -0.363550899993
+              11 N      2.568945101418   -0.104366499365   -0.450523368987
+              12 C      3.326439914659   -0.458077451821    0.751558677761
+              13 C      3.227081251571   -1.927990591923    1.154021556775
+              14 O      3.560202045043   -2.323841634776    2.244986173507
+              15 O      2.783484503156   -2.773737613634    0.217015605448
+              16 C      3.100118327373    1.082237705342   -1.125770759552
+              17 C      4.290650613661    0.789026809483   -2.038029134634
+              18 O      5.081650146147    1.633930195090   -2.384536198459
+              19 O      4.361728057056   -0.465471614278   -2.485816520372
+              20 H      0.638426941282   -0.006821600613   -1.264321242954
+              21 H      0.800001096841   -1.039940772712    0.159594029841
+              22 H      0.874997001262    2.035566084669    0.171154220970
+              23 H      0.996353075334    1.019178261885    1.623130058559
+              24 H     -2.430896286862    0.302754228477    1.884027742751
+              25 H     -0.840605433395   -0.405979356326    2.200933809028
+              26 H     -2.342024238571    0.002223718053   -0.866738119670
+              27 H     -0.861075788851    3.161111211985    0.531039596565
+              28 H     -2.034248606456    2.558913401016    1.703294878205
+              29 H     -3.013500963502    4.246372156693    0.319245624718
+              30 H      3.064296752156    0.141271270764    1.641283768828
+              31 H      4.399370302406   -0.279177134734    0.567352373572
+              32 H      2.558423373373   -2.266172460769   -0.587024804691
+              33 H      3.396368292660    1.894677950784   -0.439460764554
+              34 H      2.319666315100    1.493285668480   -1.787934063266
+              35 H      3.623539819868   -0.959562286157   -2.072597228802
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     20 
+    Coordinates:
+               0 C      1.104782500958   -0.070371979520   -0.270218243337
+               1 C      0.559501421361    1.077021651351    0.601628752488
+               2 N     -0.900578389912    1.067785639634    0.656003992492
+               3 C     -1.496227758911   -0.032089061466    1.391907437781
+               4 C     -1.878276614652   -1.242740118542    0.530156606940
+               5 O     -1.832557188530   -2.380078214110    0.949656275764
+               6 O     -2.289483216615   -0.977547743881   -0.704708164820
+               7 C     -1.573572253998    2.340494801225    0.716800408066
+               8 C     -2.677799043721    2.474206798858   -0.329514195882
+               9 O     -2.973927679935    1.598912766547   -1.119857362687
+              10 O     -3.339180776394    3.627867577367   -0.354028836579
+              11 N      2.570574447793   -0.103885929794   -0.450889508028
+              12 C      3.326258995846   -0.456546179167    0.752541028768
+              13 C      3.220324716673   -1.924584612890    1.159732654216
+              14 O      3.552950355091   -2.318307658399    2.251546336471
+              15 O      2.777733869840   -2.772643441429    0.224298797018
+              16 C      3.103165576791    1.081883465059   -1.126515823588
+              17 C      4.293132098289    0.786459181175   -2.038883450236
+              18 O      5.089071917744    1.628705258091   -2.380447876409
+              19 O      4.362139233160   -0.468183598210   -2.486801389603
+              20 H      0.641570518308   -0.006744179695   -1.267139067034
+              21 H      0.801301437742   -1.039136356937    0.157441721869
+              22 H      0.874919676077    2.036363905474    0.166687898639
+              23 H      0.997045602072    1.021717849720    1.619993498520
+              24 H     -2.429295637377    0.301004465789    1.880628199339
+              25 H     -0.838466077559   -0.406603271546    2.197232288204
+              26 H     -2.347030286846    0.003241754339   -0.866063420769
+              27 H     -0.861898705015    3.161162087661    0.526643030281
+              28 H     -2.027922402647    2.559091658652    1.706059794781
+              29 H     -3.016758478661    4.245829436950    0.326029691035
+              30 H      3.066799514885    0.146730449879    1.640548641775
+              31 H      4.399920797442   -0.282781948843    0.567452954579
+              32 H      2.556192525835   -2.268227768500   -0.582516379458
+              33 H      3.400812674168    1.893927235807   -0.440216289182
+              34 H      2.323314160551    1.494131403865   -1.788595687567
+              35 H      3.619112470149   -0.959375324514   -2.078384313847
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     21 
+    Coordinates:
+               0 C      1.105489768461   -0.070344417172   -0.272572752897
+               1 C      0.559664654487    1.076925086574    0.599244404122
+               2 N     -0.900444262635    1.067241488106    0.654110977072
+               3 C     -1.495774001052   -0.033594220607    1.389141179515
+               4 C     -1.877194449281   -1.243579598152    0.526041240397
+               5 O     -1.829634408159   -2.381548213342    0.943687815121
+               6 O     -2.291521841598   -0.976683367075   -0.707461363427
+               7 C     -1.573159211763    2.340123373449    0.718220086014
+               8 C     -2.681583629492    2.474339304090   -0.323715961273
+               9 O     -2.981238259192    1.599278722735   -1.113113572004
+              10 O     -3.341594725104    3.628686793146   -0.346428733798
+              11 N      2.571302795169   -0.104035819904   -0.452536058372
+              12 C      3.326441606661   -0.454923524927    0.751953695467
+              13 C      3.217190880189   -1.921336933757    1.164060040526
+              14 O      3.545986717953   -2.311540146059    2.258356467563
+              15 O      2.773806842290   -2.772125824771    0.231455443605
+              16 C      3.104255379348    1.081331033001   -1.128890755202
+              17 C      4.296068302040    0.785353227050   -2.038805131137
+              18 O      5.091758869445    1.627830858720   -2.380511607160
+              19 O      4.366465181191   -0.469828489858   -2.485318885831
+              20 H      0.642860861435   -0.006680457939   -1.269812172347
+              21 H      0.801706260304   -1.039070161475    0.154665163044
+              22 H      0.874582620363    2.036269085185    0.163975782269
+              23 H      0.997583344227    1.021975355048    1.617481319732
+              24 H     -2.428910498189    0.298901161016    1.877908072252
+              25 H     -0.838020187009   -0.408423229667    2.194343044268
+              26 H     -2.350824268916    0.004343802747   -0.866610734666
+              27 H     -0.862109813226    3.160819830795    0.526093746798
+              28 H     -2.023669275248    2.557844324155    1.709437225594
+              29 H     -3.015494118320    4.247408795931    0.331167624139
+              30 H      3.068834016318    0.151839950293    1.638172768425
+              31 H      4.400427401625   -0.284382216619    0.565748014187
+              32 H      2.555561349269   -2.271240440495   -0.578314672770
+              33 H      3.400361965281    1.894247290964   -0.443018905540
+              34 H      2.325206133709    1.492347578429   -1.792659347620
+              35 H      3.623267999418   -0.961079999618   -2.077283456067
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    36 
+    Geometry Index:     22 
+    Coordinates:
+               0 C      1.104499422639   -0.070487652728   -0.271852101367
+               1 C      0.559266000202    1.075619960825    0.601991971336
+               2 N     -0.900677253557    1.066233684693    0.658516370287
+               3 C     -1.496377861243   -0.034657290670    1.392877489673
+               4 C     -1.878044225411   -1.244637142975    0.529727304880
+               5 O     -1.831943310644   -2.382453471569    0.947992707408
+               6 O     -2.290939896708   -0.977914329178   -0.704311929501
+               7 C     -1.574046598006    2.338936306197    0.719831328593
+               8 C     -2.675419439010    2.475119142476   -0.329464477712
+               9 O     -2.973692558151    1.599335317442   -1.118668056924
+              10 O     -3.332722309981    3.630855116599   -0.356874047456
+              11 N      2.570123301343   -0.103776453225   -0.453306970793
+              12 C      3.326460840825   -0.455089281111    0.750433426611
+              13 C      3.217428398702   -1.921612053989    1.162152318091
+              14 O      3.547994357123   -2.312392518649    2.255766469881
+              15 O      2.772590505737   -2.771948092887    0.229849822823
+              16 C      3.101939549229    1.082401380143   -1.129231461925
+              17 C      4.294591578063    0.788115195364   -2.038591610987
+              18 O      5.089910358790    1.631533611734   -2.378891007487
+              19 O      4.366027415740   -0.466446331002   -2.486954073122
+              20 H      0.640950893010   -0.005754349027   -1.268612975851
+              21 H      0.801247052527   -1.039757438264    0.154488328362
+              22 H      0.873860676112    2.035452877697    0.167629636599
+              23 H      0.998278028644    1.019261230904    1.619657333578
+              24 H     -2.429512005627    0.298107135056    1.881435219261
+              25 H     -0.838881127897   -0.409797623547    2.198173205322
+              26 H     -2.349095591495    0.003102881545   -0.864334059626
+              27 H     -0.861969104102    3.160400141440    0.535261790770
+              28 H     -2.032043290107    2.553937862854    1.708151544630
+              29 H     -3.008219051516    4.250178254952    0.320982267524
+              30 H      3.069813648377    0.151366221589    1.637125835358
+              31 H      4.400262651395   -0.284558584608    0.563183589879
+              32 H      2.553410464858   -2.270800769645   -0.579476646846
+              33 H      3.396765251463    1.895531890616   -0.443100623039
+              34 H      2.322570784051    1.492423909220   -1.793246473021
+              35 H      3.623242444626   -0.959138738271   -2.080101445209

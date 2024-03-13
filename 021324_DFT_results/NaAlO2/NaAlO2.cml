@@ -1,0 +1,14 @@
+<molecule formalCharge="-9">
+ <atomArray>
+  <atom id="a1" elementType="O" x3="1.429500" y3="1.529167" z3="-0.234107"/>
+  <atom id="a2" elementType="Al" formalCharge="-2" x3="3.004472" y3="1.298924" z3="0.155080"/>
+  <atom id="a3" elementType="O" x3="3.109649" y3="0.244694" z3="1.405091"/>
+  <atom id="a4" elementType="Na" formalCharge="-7" x3="0.862151" y3="-1.644429" z3="0.044502"/>
+  <atom id="a5" elementType="H" x3="3.783503" y3="0.706977" z3="-1.107265"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="2"/>
+  <bond atomRefs2="a2 a3" order="2"/>
+  <bond atomRefs2="a2 a5" order="1"/>
+ </bondArray>
+</molecule>

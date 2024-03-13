@@ -1,0 +1,26 @@
+## avogadro generated ORCA input file 
+# Advanced Mode
+# 
+! B3LYP OPT def2-SVP NormalPrint defgrid2 NormalSCF 
+
+! CPCM
+%cpcm
+epsilon 69.0
+refrac 1.34
+end
+
+%scf
+	MaxIter 125
+	CNVDIIS 1
+	CNVSOSCF 1 
+end
+
+* xyz -8 1
+   O        1.50388        0.55326       -0.35153
+   S        2.94455        0.21813       -0.16607
+   O        2.63969       -0.96672        0.68564
+   O        3.53155       -0.19455       -1.41369
+   O        3.60491        1.23802        0.60543
+  Mg        0.90656       -0.77403        0.61170
+*
+

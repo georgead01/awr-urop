@@ -1,0 +1,6 @@
+<molecule formalCharge="-8">
+ <atomArray>
+  <atom id="a1" elementType="Cl" formalCharge="-1" x3="-0.208356" y3="0.629437" z3="-0.338308"/>
+  <atom id="a2" elementType="K" formalCharge="-7" x3="2.200388" y3="-0.695503" z3="0.214734"/>
+ </atomArray>
+</molecule>

@@ -1,0 +1,16 @@
+<molecule formalCharge="-8">
+ <atomArray>
+  <atom id="a1" elementType="O" formalCharge="-1" x3="1.297809" y3="-0.070526" z3="0.667201"/>
+  <atom id="a2" elementType="S" x3="2.724615" y3="-0.132475" z3="0.301053"/>
+  <atom id="a3" elementType="O" x3="3.674409" y3="-0.165388" z3="1.375307"/>
+  <atom id="a4" elementType="O" x3="2.723037" y3="-1.275756" z3="-0.629847"/>
+  <atom id="a5" elementType="O" formalCharge="-1" x3="2.817948" y3="0.995141" z3="-0.644170"/>
+  <atom id="a6" elementType="Ca" formalCharge="-6" x3="1.045803" y3="-0.074212" z3="-1.597676"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="1"/>
+  <bond atomRefs2="a2 a3" order="2"/>
+  <bond atomRefs2="a2 a4" order="2"/>
+  <bond atomRefs2="a2 a5" order="1"/>
+ </bondArray>
+</molecule>
