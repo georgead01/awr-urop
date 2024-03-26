@@ -24,5 +24,4 @@ def get_trajectory(mol):
         raise KeyError(f'no molecule {mol} in folder')
     
     file_path = os.path.join(dft_path, f'{mol}/{mol}_DFT_topology.pdb')
-    print(file_path)
     return mdtraj.load(file_path)
