@@ -25,3 +25,4 @@ def get_trajectory(mol):
     
     file_path = os.path.join(dft_path, f'{mol}/{mol}_DFT_topology.pdb')
     return mdtraj.load(file_path)
+
