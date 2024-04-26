@@ -9,12 +9,8 @@ from ase.io import Trajectory
 import ase.io
 
 from ml4chem.atomistic.models.autoencoders import VAE
-from ase.calculators.abinit import Abinit, AbinitProfile
-# from ase.calculators.abacus import Abacus, AbacusProfile
-abinit = '/usr/local/bin/abinit'
-profile = AbinitProfile(argv=['mpirun','-n','2',abinit])
-
-
+from ase.calculators.abc import ABC
+from ase.calculators.abinit import Abinit
 
 # get data
 
@@ -27,9 +23,17 @@ for mol in molecules:
         traj_path = os.path.join(dft_path, f'{mol}/{mol}_DFT.traj')
         traj_read = ase.io.Trajectory(traj_path)
         atoms = traj_read[:]
-        calc = Abinit(profile=profile, ntype=1, ecutwfc=50, scf_nmax=50, smearing_method='gaussian', smearing_sigma=0.01, basis_type='pw', ks_solver='cg', calculation='scf', pp=pp, basis=basis, kpts=kpts)
-        atoms.calc = calc
-        train_data.append(*atoms)
+        for atom in atoms:
+            calc = Abinit(label=str(atom),
+            pseudo_dir='pbe_s_sr',
+            ecut=10.0,     # Plane-wave energy cutoff in Hartree
+            kpts=(4, 4, 4),  # k-points mesh
+            toldfe=1.0e-6,  # SCF convergence threshold
+            nshiftk=4,      # Number of k-point shifts
+            shiftk=[(0.5, 0.5, 0.5), (0.5, 0.0, 0.0),
+                    (0.0, 0.5, 0.0), (0.0, 0.0, 0.5)])
+            atom.calc = calc
+            train_data.append(atom)
 
 data_handler = Data(train_data, purpose='training')
 
